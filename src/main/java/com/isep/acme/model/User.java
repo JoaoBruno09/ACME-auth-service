@@ -36,9 +36,6 @@ public class User implements UserDetails {
     @Column(nullable = false)
     private String morada;
 
-/*    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Review> review = new ArrayList<Review>(); */
-
     protected User() {}
 
     public User(final String username, final String password){
